@@ -1,5 +1,8 @@
 #/bin/sh
 
+git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+git clone https://github.com/ITdesk01/jd_openwrt_script.git package/jd_openwrt_script
 disablePkgsList="
 ./feeds/pw/chinadns-ng 
 ./feeds/pw/ipt2socks 

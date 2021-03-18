@@ -11,5 +11,4 @@
 #
 
 # Modify default IP&hostname
-# sed -i 's/192.168.1.1/192.168.168.3/g' .package/base-files/files/bin/config_generate
-# sed -i 's/OpenWrt/Netgate@chxmgood's/g' .package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.168.3/g' .package/base-files/files/bin/config_generate

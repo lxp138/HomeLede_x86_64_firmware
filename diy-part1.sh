@@ -17,9 +17,11 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 
-git clone https://github.com/godros/luci-app-godproxy.git
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
-git clone https://github.com/ITdesk01/jd_openwrt_script.git
+git clone https://github.com/godros/luci-app-godproxy.git ./package/luci-app-godproxy
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git ./package/luci-app-jd-dailybonus
+git clone https://github.com/ITdesk01/jd_openwrt_script.git ./package/jd_openwrt_script
+git clone https://github.com/jerrykuku/luci-app-ttnode.git ./package/luci-app-ttnode
+
 disablePkgsList="
 ./feeds/pw/chinadns-ng 
 ./feeds/pw/ipt2socks 

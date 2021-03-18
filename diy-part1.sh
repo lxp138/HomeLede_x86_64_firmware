@@ -22,6 +22,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git ./package/luci
 git clone https://github.com/ITdesk01/jd_openwrt_script.git ./package/jd_openwrt_script
 git clone https://github.com/jerrykuku/luci-app-ttnode.git ./package/luci-app-ttnode
 
+# Add HomeLede prepareCompile.sh
 disablePkgsList="
 ./feeds/pw/chinadns-ng 
 ./feeds/pw/ipt2socks 

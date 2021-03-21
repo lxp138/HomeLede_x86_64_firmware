@@ -29,6 +29,24 @@ config smartdns
 
 config server
 	option type 'udp'
+	option name 'CN-ZIJI#1'
+	option ip '61.178.0.93'
+	option enabled '1'
+	option server_group 'bootstrap'
+	option blacklist_ip '0'
+	option addition_arg '-exclude-default-group'
+	
+config server
+	option type 'udp'
+	option name 'CN-ZIJI#2'
+	option ip '202.100.64.68'
+	option enabled '1'
+	option server_group 'bootstrap'
+	option blacklist_ip '0'
+	option addition_arg '-exclude-default-group'
+	
+config server
+	option type 'udp'
 	option name 'CN-DNSPOD'
 	option ip '119.29.29.29'
 	option enabled '1'

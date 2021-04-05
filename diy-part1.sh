@@ -21,7 +21,7 @@ git clone https://github.com/godros/luci-app-godproxy.git ./package/lean/luci-ap
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git ./package/lean/luci-app-jd-dailybonus
 git clone https://github.com/ITdesk01/jd_openwrt_script.git ./package/lean/jd_openwrt_script
 git clone https://github.com/jerrykuku/luci-app-ttnode.git ./package/lean/luci-app-ttnode
-
+git clone https://github.com/xiaoqingfengATGH/lantern.git ./package/lean/lantern
 # Add HomeLede prepareCompile.sh
 disablePkgsList="
 ./feeds/pw/chinadns-ng 
